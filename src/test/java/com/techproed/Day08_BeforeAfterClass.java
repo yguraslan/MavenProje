@@ -20,7 +20,8 @@ public class Day08_BeforeAfterClass {
     public void test2(){
         System.out.println("Test 2 çalıştı.");
     }
-    @AfterClass // bu annotationa sahip method her classtaki tester çalıştırıldıktan sonra çalışır.
+
+    @AfterClass // bu annotationa sahip method her classtaki test çalıştırıldıktan sonra çalışır.
     public static void tearDown(){
         System.out.println("tearDown çalıştı.");
     }
