@@ -58,6 +58,7 @@ public class Day09_Assertion {
         //Facebook.com title i Youtube kelimesini icermesin.
         boolean iceriyorMu =title.contains("Youtube");
         Assert.assertFalse(iceriyorMu);// False oldugunu dogrula
+        // parantezin içerisi FALSE ise test başarılı.
 
     }
     @Test
